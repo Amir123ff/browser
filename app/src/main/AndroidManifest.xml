@@ -5,10 +5,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
     <application
         android:label="Agood Browser"
-        android:icon="@android:drawable/sym_def_app_icon"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
         android:usesCleartextTraffic="true"
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
