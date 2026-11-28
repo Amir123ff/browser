@@ -7,13 +7,13 @@
         android:fillColor="#0B1220"
         android:pathData="M26,0h56a26,26 0 0 1 26,26v56a26,26 0 0 1 -26,26h-56a26,26 0 0 1 -26,-26v-56a26,26 0 0 1 26,-26z" />
     <path
-        android:pathData="M32,78L54,30L76,78M41,62L67,62"
+        android:pathData="M74,40A24,24 0 1 0 78,56L56,56"
         android:strokeColor="#553DA9FF"
         android:strokeWidth="15"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
     <path
-        android:pathData="M32,78L54,30L76,78M41,62L67,62"
+        android:pathData="M74,40A24,24 0 1 0 78,56L56,56"
         android:strokeColor="#3DA9FF"
         android:strokeWidth="8"
         android:strokeLineCap="round"
